@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<script>
+
+
+
+
+
+//Number1
+
+
+
+
+
+let x = prompt("Frist number: ");
+let y = prompt("Second number: ");
+
+if (parseInt(x) > parseInt(y)){
+    alert(x)
+}
+else{
+    alert(y)
+}
+
+</script>
+
+<script>
+
+
+
+
+//Number2
+
+
+
+
+
+let a = prompt("Frist number: ");
+let b = prompt("Second number: ");
+let c = prompt("Third number: ");
+
+
+if (parseInt(a) > parseInt(b) && parseInt(a) > parseInt(c)){
+    alert(a)
+}
+else if (parseInt(b) > parseInt(a) && parseInt(b) > parseInt(c)){
+    alert(b)
+}
+else {
+    alert(c)
+}
+</script>
+
+<script>
+
+
+
+
+//Number3
+
+
+
+
+
+let d = prompt("First number: (addition)");
+let e = prompt("Second Number: (addition)");
+
+let sum = parseInt(d) + parseInt(e);
+alert(sum);
+
+let f = prompt("First number: (subtraction)");
+let g = prompt("Second number: (Subtraction)")
+
+alert (diff = parseInt(f) - parseInt(g));
+
+let h = prompt("First number: (Multiplication)");
+let i = prompt("Second number: (Multiplication)")
+
+alert (prod = parseInt(h) * parseInt(i));
+
+let j = prompt("First number: (Division)");
+let k = prompt("Second number: (Division)")
+
+alert (prod = parseInt(j) / parseInt(k));
+
+let l = prompt("First number: (Modulus)");
+let m = prompt("Second number: (Modulus)")
+
+alert (prod = parseInt(l) % parseInt(m));
+
+</script>
+
+<script>
+
+
+
+//Number 4
+
+
+
+let grade = prompt("Input the grade: ");
+
+if (grade >= 91 && grade <= 100){
+    alert("S grade")
+}
+else if (grade >= 81 && grade <= 90){
+    alert("A grade")
+}
+else if (grade >= 71 && grade <= 80){
+    alert("B grade")
+}
+else if (grade >= 61 && grade <= 70){
+    alert("C grade")
+}
+else if (grade >= 51 && grade <= 60){
+    alert("D grade")
+}
+else if (grade >= 41 && grade <= 50){
+    alert("E grade")
+}
+else if (grade >= 0 && grade <= 40){
+    alert("Student has failed")
+}
+else {
+    alert("Invalid Marks")
+}
+</script>
+
+
+<script>
+
+
+
+// Number 5
+
+let month = prompt("Input the month in numbers: ");
+let year = prompt("Input the year: ")
+
+
+if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12){
+    alert("31")
+}
+else if (month == 4 || month == 6 || month == 9 || month == 11){
+    alert("30")
+}
+else if (month == 2 && year%4 == 0 && year%100 != 0 || year%400 == 0){
+    alert("29")
+}
+else if (month == 2){
+    alert("28")
+}
+else {
+    print("Invalid Month")
+}
+
+
+</script>
+</body>   
+</html>
