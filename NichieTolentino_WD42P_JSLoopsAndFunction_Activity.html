@@ -10,6 +10,9 @@
     
 <script>
 
+//number1
+
+
 function displayNumbers(){
     let count = "";
     for (x=1; x <=10; x++){
@@ -18,8 +21,9 @@ function displayNumbers(){
     return(count);
     }
 
-
+//number2
        
+
 function EvenNumbers(num1){
    if (num1 % 2 == 0){
     return "the number is even"
@@ -28,12 +32,43 @@ function EvenNumbers(num1){
     return "the number is odd"
    }
     }
-    
-function
-       
-//alert(displayNumbers());
-alert(EvenNumbers(prompt("input a number: ")));
 
+//number3    
+
+
+function ForLoops(){
+    first = "";
+    second = "";
+    for (var n = 1; n <= 6; n++){
+        first = first + n + " ";
+        second = second + first + "\n";
+    
+    }
+    return(second);
+}
+
+//number4
+
+function SinStrPar(word){
+    for (var n = 1; n = word.length; n++){
+        return (n);
+    }
+}
+
+
+//number5
+
+function HrsIntoSec(hours){
+    hours *= 3600;
+    final = hours + " seconds";
+    return(final);
+}
+
+//alert(displayNumbers());
+//alert(EvenNumbers(prompt("input a number: ")));
+//alert(ForLoops());
+//alert(SinStrPar(prompt("input the word: ")));
+//alert(HrsIntoSec(prompt("Input how many Hours: ")))
 
 </script>
 
