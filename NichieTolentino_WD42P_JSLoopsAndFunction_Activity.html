@@ -36,15 +36,19 @@ function EvenNumbers(num1){
 //number3    
 
 
-function ForLoops(){
-    first = "";
-    second = "";
-    for (var n = 1; n <= 6; n++){
-        first = first + n + " ";
-        second = second + first + "\n";
-    
+function ForLoops(Input){
+    let display = "";
+
+    for(x=1; x <= Input; x++){
+        let num = "";
+
+        for (y=1; y<=x; y++){
+        num = num + y + " ";
+        }
+        display = display + num + "<br />";
+       
     }
-    return(second);
+    return display;
 }
 
 //number4
@@ -66,7 +70,7 @@ function HrsIntoSec(hours){
 
 //alert(displayNumbers());
 //alert(EvenNumbers(prompt("input a number: ")));
-//alert(ForLoops());
+//document.write(ForLoops(prompt("input the number: ")));
 //alert(SinStrPar(prompt("input the word: ")));
 //alert(HrsIntoSec(prompt("Input how many Hours: ")))
 
